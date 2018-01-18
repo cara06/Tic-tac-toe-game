@@ -1,0 +1,83 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url(http://hdblackwallpaper.com/wallpaper/2015/12/plain-black-3d-28-hd-wallpaper.jpg);
+ 
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 400px;
+  height: 500px;
+  margin: 100px auto;
+}
+
+.tile {
+  width: 33.33%;
+  height: 100px;
+  float: left;
+  color: white;
+  box-sizing: border-box;
+  line-height: 100%;
+}
+
+.tile p {
+  line-height: 100px;
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+.horizontal {
+  border-top: 5px solid #8B4513;
+  border-bottom: 5px solid #8B4513;
+}
+
+.vertical {
+  border-left: 5px solid #8B4513;
+  border-right: 5px solid #8B4513;
+}
+
+.startmodal {
+  margin: 155px auto;
+  height: 100%;
+  max-width: 320px;
+}
+
+.endmodal {
+  margin: 155px auto;
+  height: 100%;
+  max-width: 320px;
+}
+
+.modal-content {
+  padding: 20px;
+  background: rgba(173,216,230, 0.5);
+  color: #ffdab9;
+}
+
+
+/* Modal buttons */
+
+.btn {
+  text-transform: uppercase;
+  background: #8B4513;
+  box-shadow: 0.25px 0.5px 1px #000000;
+  /* CSS Transition */
+  -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+#X:hover {
+  background-color: #87CEFA;
+}
+
+#O:hover {
+  background-color: #F0A830;
+}
